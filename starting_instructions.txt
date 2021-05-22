@@ -1,0 +1,35 @@
+1. npm init
+2. Lite server installation:
+    1. npm install --save-dev lite-server
+    2. Add 'start' : 'server-lite' to "scripts" in package.json
+    3. npm start
+    
+3. Installing dependencies:
+    1. npm install
+
+
+
+TypeScript Compiler
+    "Auto-compile" : tsc app.ts -w
+    "Initialize project" : tsc --init
+    "compile project" : tsc
+    "Auto-compile entire project" : tsc -w
+    "exclude a file from compilation" :
+        Add: ,
+            'exclude' : [
+                'node_modules',
+                'file_to_be_excluded.ts"
+                '*.dev.ts",
+                '**/*.dev.ts'
+            ]
+        at the end of file 
+    "only include specific files for compilation":
+        Add: ,
+            'include' : [
+                xxxx
+            ]
+    "files included" : include - exclude
+
+
+
+ 
